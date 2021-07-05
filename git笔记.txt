@@ -1,0 +1,7 @@
+git init ##创建仓库
+git add '文件名' ['文件名'] ##添加文件进暂存区
+git commit -m '说明' ##把暂存区文件添加进仓库
+git log [--pretty=oneline] ## 查看提交历史
+git reset --hard HEAD~number【1,2~~】(返回指定第几个版本)/HEAD^（返回上一个版本）/版本号（返回指定版本）##回滚 
+git status ##查看仓库当前状态
+git reflog ##查看命令历史
